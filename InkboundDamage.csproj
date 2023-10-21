@@ -28,16 +28,16 @@
 
     <ItemGroup>
         <Reference Include="Assembly-CSharp">
-            <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Inkbound\Inkbound_Data\Managed\Assembly-CSharp.dll</HintPath>
+            <HintPath>$(InkboundInstallDir)Inkbound_Data\Managed\Assembly-CSharp.dll</HintPath>
         </Reference>
         <Reference Include="InkboundModEnabler">
-            <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Inkbound\BepInEx\plugins\InkboundModEnabler\InkboundModEnabler.dll</HintPath>
+            <HintPath>$(InkboundInstallDir)BepInEx\plugins\InkboundModEnabler\InkboundModEnabler.dll</HintPath>
         </Reference>
         <Reference Include="Unity.TextMeshPro">
-            <HintPath>..\Inkbound_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+            <HintPath>$(InkboundInstallDir)Inkbound_Data\Managed\Unity.TextMeshPro.dll</HintPath>
         </Reference>
         <Reference Include="UnityEngine.UI">
-            <HintPath>..\Inkbound_Data\Managed\UnityEngine.UI.dll</HintPath>
+            <HintPath>$(InkboundInstallDir)Inkbound_Data\Managed\UnityEngine.UI.dll</HintPath>
         </Reference>
     </ItemGroup>
     <!--    <ItemGroup>-->
